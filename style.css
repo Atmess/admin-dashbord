@@ -33,6 +33,39 @@
 
 .header-mainbar{
     background-color: yellow;
+    display: grid;
+    
+    grid-template-rows: 40px 1fr;
+    }
+
+.searchbar{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content:  baseline;
+}
+.searchbar p{
+    
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.searchbar img{
+    padding: 0 20px;
+}
+.search-input{
+    width: 60%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.profile{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .main-mainbar{
     background-color: chocolate;
