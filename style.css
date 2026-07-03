@@ -1,15 +1,20 @@
+body{
+    background-image: url(picture/live-twin-home.png);
+    background-size: contain;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .container{
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 300px 1fr;
-    background-image: url(live-twin-channel.png);
-    background-size: cover;
 }
 
+
 .sidebar{
-    background-color: aqua;
-    border: 1px solid black;
     padding: 2rem;
     display: grid;
     grid-template-rows: repeat(1, 80px) repeat(5 , 40px) repeat(1 , 100px) repeat(2 ,40px);
@@ -27,7 +32,6 @@
 
 .mainbar{
 
-    border: 1px solid green;
     display: grid;
     grid-template-rows: 150px 1fr;
 }
@@ -117,7 +121,6 @@
     gap: 20px;
 }
 .card{
-    background-color: white;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
