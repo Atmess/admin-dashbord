@@ -3,7 +3,8 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 300px 1fr;
-    background-color: black;
+    background-image: url(live-twin-channel.png);
+    background-size: cover;
 }
 
 .sidebar{
@@ -25,21 +26,21 @@
 }
 
 .mainbar{
-    background-color: red;
+
     border: 1px solid green;
     display: grid;
     grid-template-rows: 150px 1fr;
 }
 
 .header-mainbar{
-    background-color: yellow;
+
     display: grid;
     
     grid-template-rows: 40px 1fr;
     }
 
 .searchbar{
-    background-color: green;
+
     display: flex;
     align-items: center;
     justify-content:  baseline;
@@ -61,18 +62,17 @@
     margin-right: 40px;
 }
 .profile{
-    background-color: blue;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
 }
 .profile-info{
     display: flex;
     align-items: center;
     width: 70%;
     height: 100%;
-    background-color: white;
+
     padding: 0 40px;
 }
 .profile-details{
@@ -89,7 +89,7 @@
 }
 
 .buttonplace{
-    background-color: red;
+  
     width: 30%;
     height: 100%;
     display: flex;
@@ -99,17 +99,22 @@
 
 }
 .main-mainbar{
-    background-color: chocolate;
+  
     display: grid;
    grid-template-columns: 75% 1fr;
 }
 .cards{
-    background-color: red;
     display: grid;
-    grid-template-rows: repeat(3, 1fr); ;
+    grid-template-rows: 40px 1fr;
+
+    gap: 10px;
+}
+.cardlist{
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 20px;
 }
 .card{
     background-color: white;
@@ -120,10 +125,10 @@
     justify-content: center;
 }
 .card2{
-    background-color: green;
-    border: 1px solid black;
+  
+
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1,10px) repeat(1,300px) repeat(1,10px) repeat(1,300px);
     gap: 20px;
 }
 
